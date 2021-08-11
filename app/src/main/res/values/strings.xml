@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Quake Report</string>
+    <string name="near_the">Near the</string>
+    <string name="no_earthquakes">No Earthquakes Found</string>
+    <string name="no_Internet">NO INTERNET CONNECTION......PLEASE CHECK YOUR INTERNET</string>
+    
+    
+    <string name="setting_menu_item">Settings</string>
+    <string name="settings_title">Earthquake Settings</string>
+    
+    <string name="settings_min_magnitude_label">Minimum Magnitude</string>
+    <string name="settings_min_Magnitude_key" translatable="false">min_magnitude</string>
+    <string name="settings_min_Magnitude_default" translatable="false">6</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_orderBy_label">Order By</string>
+    <string name="settings_orderBy_Key" translatable="false">order_by</string>
+    <string name="settings_orderBy_default" translatable="false">@string/settings_order_by_magnitude_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_magnitude_label">Magnitude</string>
+    <string name="settings_order_by_magnitude_value" translatable="false">magnitude</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_labels">Most Recent</string>
+    <string name="settings_order_by_most_recent_values" translatable="false">time</string>
+    
+    <string name="Limit_label">Limit</string>
+    <string name="limit_key" translatable="false">limit_key</string>
+    <string name="limit_default" translatable="false">10</string>
+</resources>

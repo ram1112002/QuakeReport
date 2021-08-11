@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This xml file is to set filter inside a filter to set maginute and other things in earthquake-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+    <ListPreference
+        android:defaultValue="@string/settings_orderBy_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_orderBy_Key"
+        android:title="@string/settings_orderBy_label"
+                />
+    <EditTextPreference
+        android:defaultValue="@string/settings_min_Magnitude_default"
+       android:inputType="numberDecimal"
+        android:key="@string/settings_min_Magnitude_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_min_magnitude_label"/>
+
+    <EditTextPreference
+        android:defaultValue="@string/limit_default"
+        android:inputType="numberDecimal"
+        android:key="@string/limit_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/Limit_label"/>
+
+</PreferenceScreen>
